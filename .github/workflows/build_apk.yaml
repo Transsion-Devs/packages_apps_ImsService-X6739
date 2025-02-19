@@ -17,8 +17,8 @@ jobs:
 
     - uses: actions/setup-java@v3
       with:
-        distribution: 'semeru'
-        java-version: '11'
+        distribution: 'temurin'
+        java-version: '21'
 
     - uses: robinraju/release-downloader@v1.5
       with:
