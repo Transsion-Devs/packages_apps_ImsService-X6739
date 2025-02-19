@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - v722
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   build:
